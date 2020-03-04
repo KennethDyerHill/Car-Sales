@@ -19,4 +19,4 @@ const AdditionalFeatures = props => {
   );
 };
 
-export default (state => ({ store: state.store }))(AdditionalFeatures);
+export default connect(state => ({ store: state.store }))(AdditionalFeatures);

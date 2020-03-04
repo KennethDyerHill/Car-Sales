@@ -1,4 +1,4 @@
-import * as types from ".actionTypes";
+import * as types from "./actionTypes";
 
 export function remove(item) {
     return { type: types.REMOVEFEATURE, payload: item };

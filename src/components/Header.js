@@ -13,4 +13,4 @@ const Header = props => {
   );
 };
 
-export default connect(state => ({ care: state.car }))(Header);
+export default connect(state => ({ car: state.car }))(Header);
