@@ -1,0 +1,2 @@
+export const REMOVEFEATURE = "REMOVEFEATURE";
+export const BUYITEM = "BUYITEM";
